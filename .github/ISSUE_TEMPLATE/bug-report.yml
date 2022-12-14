@@ -15,7 +15,7 @@ body:
         - label: 我阅读了常见问题: [https://bornforthis.cn/1v1/02-yuebao/#Question](https://bornforthis.cn/1v1/02-yuebao/#Question)
           required: true
 
-        - label: 我确定我看懂且确认还是无法解决问题。
+        - label: 我确定我看懂且确认还是无法解决问题.
           required: true
 
   - type: input
