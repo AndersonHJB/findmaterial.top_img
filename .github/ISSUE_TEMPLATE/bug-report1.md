@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: Bug report1
 about: 创建一份报告来帮助我改进
 title: "[BUG]"
 labels: bug
