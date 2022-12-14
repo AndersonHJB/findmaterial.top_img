@@ -10,7 +10,6 @@ body:
     attributes:
       label: 检查清单
       description: |-
-        Make sure that you follow these statements. (Otherwise the author may throw Fxxx words to you)
         确保您遵循这些声明。（不然作者可能会把Fxxx的话扔给你）
       options:
         - label: 我阅读了常见问题: [https://bornforthis.cn/1v1/02-yuebao/#Question](https://bornforthis.cn/1v1/02-yuebao/#Question)
