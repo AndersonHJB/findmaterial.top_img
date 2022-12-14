@@ -1,0 +1,62 @@
+name: Bug report
+description: Create a report to help us improve
+title: "[Bug]"
+labels:
+  - bug
+assignees: AndersonHJB
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: |-
+        Make sure that you follow these statements. (Otherwise the author may throw Fxxx words to you)
+        确保您遵循这些声明。（不然作者可能会把Fxxx的话扔给你）
+      options:
+        - label: 我阅读了常见问题: [https://bornforthis.cn/1v1/02-yuebao/#Question](https://bornforthis.cn/1v1/02-yuebao/#Question)
+          required: true
+
+        - label: 我确定我看懂且确认还是无法解决问题。
+          required: true
+
+  - type: input
+    id: package
+    attributes:
+      label: Package name
+      description: 您要报告哪个包裹
+      value: findmaterial.top_img
+      placeholder: package name
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: operating-systems
+    attributes:
+      label: 您使用的是哪种操作系统？
+      description: 您可以选择多个。如果它与你的问题无关，请不要选择任何内容。
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 描述错误
+
+        > 如果适用，请添加屏幕截图和详细的问题描述，以帮助解释您的问题。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 描述错误
+      description: 对错误是什么的清晰简洁的描述。
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 附加上下文
+      description: 如果您没有报告明显的内容，则需要最少的描述问题。
+      placeholder: 在此添加你的一些基本描述。
