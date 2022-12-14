@@ -22,8 +22,8 @@ body:
     id: package
     attributes:
       label: Package name
-      description: Which package are you reporting
-      value: vuepress-theme-hope
+      description: 您要报告哪个包裹
+      value: findmaterial.top_img
       placeholder: package name
     validations:
       required: true
@@ -31,8 +31,8 @@ body:
   - type: checkboxes
     id: operating-systems
     attributes:
-      label: Which operating system are you using?
-      description: You may select more than one. Don’t select anything if it's not about the environment.
+      label: 您使用的是哪种操作系统？
+      description: 您可以选择多个。如果它与你的问题无关，请不要选择任何内容。
       options:
         - label: macOS
         - label: Windows
@@ -41,21 +41,21 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Describe the bug
+        ## 描述错误
 
-        > If applicable, add screenshots and log to help explain your problem.
+        > 如果适用，请添加屏幕截图和详细的问题描述，以帮助解释您的问题。
 
   - type: textarea
     id: description
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is.
+      label: 描述错误
+      description: 对错误是什么的清晰简洁的描述。
     validations:
       required: true
 
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional context
-      description: If you are not reporting something obvious, a minimal reproduction repo and related log is required.
-      placeholder: Add any other context about the problem here. Especially the issue occurs in certain OS, browser or configuration.
+      label: 附加上下文
+      description: 如果您没有报告明显的内容，则需要最少的描述问题。
+      placeholder: 在此添加你的一些基本描述。
