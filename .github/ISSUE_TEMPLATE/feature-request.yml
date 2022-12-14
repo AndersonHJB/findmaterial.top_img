@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest an idea for this project
+title: "[Feature Request]"
+labels:
+  - enhancement
+assignees: AndersonHJB
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: 确保您遵循这些声明。
+      options:
+        - label: 我搜索了现有问题，没有其他人请求类似的功能。
+          required: true
+
+        - label: 我认为 25% 以上的用户对此功能持积极态度。
+          required: true
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: 描述功能
+      description: 它的用途和原因
+      placeholder: 对什么功能渴望？
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 附加上下文
+      placeholder: 在此处添加有关功能请求的任何其他上下文或屏幕截图。
