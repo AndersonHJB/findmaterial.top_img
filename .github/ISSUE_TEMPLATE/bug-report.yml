@@ -15,16 +15,7 @@ body:
         - label: 我阅读了常见问题:[https://bornforthis.cn/1v1/02-yuebao/#Question](https://bornforthis.cn/1v1/02-yuebao/#Question)
           required: true
 
-        - label: I am using the **latest v2 version** of VuePress and VuePress official plugins.
-          required: true
-
-        - label: I am using the **latest v2 version** of vuepress-theme-hope and all plugins in this repo.
-          required: true
-
-        - label: I am following the docs and I am sure I am using the correct configuration.
-          required: true
-
-        - label: I have searched [FAQ](https://vuepress-theme-hope.github.io/v2/faq/)
+        - label: 我确定我看懂且确认还是无法解决问题。
           required: true
 
   - type: input
